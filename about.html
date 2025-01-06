@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <title>Cronometro</title>
+</head>
+<body onload="relogio()">
+  <h2 style="Color: white;">Cronômetro.</h2>
+  <button id="menu" onclick="menu()">...</button>
+  <div id="espaco"></div>
+  <div id="central">
+    <div id="crono">
+      <div id="horaC"></div>
+      <div id="divisoria1"></div>
+      <div id="minutoC"></div>
+      <div id="divisoria2"></div>
+      <div id="segundoC"></div>
+      <div id="croN">0</div>
+      <div id="croN2">0</div>
+    </div>
+    <button id="Bplay" type="button"></button>
+    <button id="Bstop" type="button" onclick="stopC()"></button>
+    <button id="Bzerar" type="button" onclick="zerar()"></button>
+</body>
+<script src="./script.js"></script>
+</html>
+

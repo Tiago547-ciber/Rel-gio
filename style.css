@@ -1,0 +1,176 @@
+body {
+  background-color: #003366;
+}
+
+#relogio{
+  margin-top: 300px;
+  margin-left: 80px;
+  text-align: center;
+  align-items: center;
+  border: solid 2px gray;
+  width: 250px;
+  height: 100px;
+  font-size: 90px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 3;
+}
+
+
+#divisoria1 {
+  float: left;
+  color: gray;
+}
+
+#divisoria2 {
+  
+  float: left;
+  color: gray;
+}
+
+#hora {
+  width: 90px;
+  height: 90px;
+  float: left;
+  font-size: 80px;
+  color: gray;
+  margin-left: 20px;
+  text-align: center;
+  align-items: center;
+}
+#minuto {
+  width: 90px;
+  height: 90px;  
+  color: gray;
+  float: left;
+  font-size: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+
+#croN {
+  float: left;
+  font-size: 80px;
+  text-align: 100px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+#croN2 {
+
+  float: left;
+  font-size: 40px;
+  text-align: 100px;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 90px;
+  position: absolute;
+  z-index: 1;
+}
+
+#crono{
+  margin-top: 150px;
+  margin-left: 80px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  border: solid 4px white;
+  width: 250px;
+  height: 250px;
+  font-size: 90px;
+  border-radius: 100%;
+  z-index: 3;
+  position:absolute;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  margin-top: 550px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+
+#Bstop {
+  background-image: url("./imagens/reproduzir-pausa-avanco-rapido-parar-em-circulos_78370-2356~3.jpg");
+  background-size: 90px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center;
+}
+
+#Bplay {
+  background-image: url("./imagens/reproduzir-pausa-avanco-rapido-parar-em-circulos_78370-2356~2.jpg");
+  background-size: 90px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center;
+}
+
+#Bzerar {
+  background-image: url("./imagens/download.png");
+  background-size: 90px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center;
+}
+
+#opcoes {
+  width: 200px;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: 220px;
+  z-index: 4;
+  font-size: 20px;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+#menu {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 380px;
+  z-index: 1;
+  float: left;
+  position: absolute;
+}
+
+h2 {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  z-index: 2;
+  position: absolute;
+}
+
+#x {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 390px;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  display: flex;
+  z-index: 5;
+  position: absolute;
+}
